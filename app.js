@@ -25,7 +25,6 @@ ctx.beginPath();
 }
 
 function onLineWidthchange(event) {
- console.log(event.target.value);
  ctx.lineWidth=event.target.value;
 }
 
